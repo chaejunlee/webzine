@@ -1,0 +1,309 @@
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arita-dotum-Medium';
+}
+
+
+/*--background--*/
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../pic/sansarang.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*--container--*/
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/*--nav--*/
+
+nav {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+nav ul {
+    top: 0px;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: background-color 0.6s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255, 0.5);
+    color: #000;
+}
+
+nav ul li.active a {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    font-weight: normal;
+}
+
+
+/*--title--*/
+
+.title {
+    background: white;
+    width: 500px;
+    height: fit-content;
+    position: relative;
+    margin: auto;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    padding: 20px;
+    transition: background-color 2s ease;
+}
+
+.title h1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../pic/sansarang.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+/*--content--*/
+
+.content {
+    max-width: 1000px;
+    position: relative;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 50px;
+}
+
+section {
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-weight: normal;
+    background-color: white;
+    transition: background-color 2s ease, margin 1s ease;
+}
+
+.content h1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../sansarang.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.content h2 {
+    margin: 30px 30px;
+    font-weight: bold;
+}
+
+.content h3 {
+    margin: 30px 50px;
+    font-weight: bold;
+}
+
+.content p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.yellow {
+    background-image: linear-gradient(rgba(255, 255, 0, 0.3), rgba(255, 255, 0, 0.3)), url('../sansarang.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.red {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url('../sansarang.jpg');
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+/*--footer--*/
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-top: 1px solid #666;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+footer p {
+    color: #666;
+}
+
+
+/*--wrapper--*/
+
+.wrapper {
+    max-width: 1200px;
+    width: fit-content;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+
+.wrapper2 {
+    width: fit-content;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+}
+
+
+/*--gallery--*/
+
+div.gallery {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.4s ease;
+    background-color: rgba(200, 200, 200);
+    border: 3px solid transparent;
+    font-weight: normal;
+    transition: 0.6s ease;
+}
+
+div.gallery:hover {
+    background-color: white;
+    border: 3px solid dodgerblue;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+div.desc {
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+}
+
+@media only screen and (min-width: 300px) {
+    .responsive {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .responsive {
+        width: 45%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .responsive {
+        width: 30%;
+        margin: 6px 0;
+    }
+}
+
+
+/*--clearfix--*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/*--contact--*/
+
+div.gallery h4 {
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+div.gallery p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+p.part {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    padding: 10px;
+}
+
+div.gallery i {
+    padding: 10px;
+}

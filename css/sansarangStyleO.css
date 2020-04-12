@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic';
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../sansarang.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+    mix-blend-mode: screen;
+    font-weight: bold;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    background: white;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 10px 10px 10px;
+    mix-blend-mode: lighten;
+}
+
+.title h1 {
+    font-size: 100px;
+    text-align: center;
+    transition: 0.6s ease;
+}
+
+.button {
+    position: relative;
+    top: 70px;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+} */
