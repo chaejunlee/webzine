@@ -210,7 +210,7 @@ footer p {
 }
 
 .wrapper2 {
-    width: fit-content;
+    width: 1200px;
     height: auto;
     position: relative;
     margin: auto;
@@ -237,7 +237,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
+    max-width: 300px;
     height: auto;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
 }
@@ -251,26 +251,6 @@ div.desc {
 .responsive {
     padding: 0 6px;
     float: left;
-}
-
-@media only screen and (min-width: 300px) {
-    .responsive {
-        width: 90%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .responsive {
-        width: 45%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .responsive {
-        width: 30%;
-        margin: 6px 0;
-    }
 }
 
 
@@ -287,6 +267,13 @@ div.desc {
 
 /*--contact--*/
 
+.responsive2 {
+    padding: 0 6px;
+    float: left;
+    width: fit-content;
+    margin-bottom: 20%;
+}
+
 div.gallery h4 {
     font-size: 30px;
     margin-top: 10px;
@@ -296,6 +283,10 @@ div.gallery h4 {
 div.gallery p {
     font-size: 20px;
     padding: 10px;
+}
+
+img.profile {
+    width: 300px;
 }
 
 p.part {
